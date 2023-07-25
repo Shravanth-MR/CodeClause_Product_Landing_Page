@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header-title{
+    margin-top: -40px;
+}
+
+.container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+.top-buttons {
+    text-align: right;
+    padding: 1rem;
+}
+
+.top-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.top-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-button:not(:last-child) {
+    margin-right: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    flex: 1 0 250px;
+    margin: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: Times New Roman, serif;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+#key1 {
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+    text-shadow: #333;
+}
+
+#specs {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.center-button {
+    margin-top: 2rem;
+}
+
+li {
+    text-align: left;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
